@@ -101,12 +101,12 @@ fig.update_layout(
     title="District-Level Population Change in Peru (2007-2022)",
     xaxis=dict(visible=False),
     yaxis=dict(visible=False, scaleanchor='x', scaleratio=1),
-    margin=dict(l=0, r=0, t=40, b=40),  # Ajustamos el margen inferior para la fuente
+    margin=dict(l=0, r=0, t=40, b=40),  
     legend=dict(title="- Population change - "),
     annotations=[
         dict(
             x=0.01,
-            y=-0.05,  # Posición debajo del gráfico
+            y=-0.05,  
             xref='paper',
             yref='paper',
             text="Source: INEI, Census Data (2007) and Population Projections (2018-2022)",
